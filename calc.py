@@ -18,6 +18,13 @@ def calculator(n1,op,n2):
             print("Error: Division by zero")
         else:
             print(n1/n2)
+    elif op=='%':
+        if n2==0:
+            print("Error: Division by zero")
+        else:
+            print(n1%n2)
+    elif op=='**':
+        print(n1**n2)        
     else:
         print("Invalid operator")
 while True:
