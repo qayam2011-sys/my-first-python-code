@@ -1,4 +1,4 @@
-
+#for  importing and using functions from other files
 from calc import calculator
-calculator(' 10 ', ' + ', ' 5 ')
+calculator()
 

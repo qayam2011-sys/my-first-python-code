@@ -1,4 +1,7 @@
-def calculator(n1,op,n2):
+def calculator():
+    n1=input("Enter first number:")
+    op=input("Enter operator:")
+    n2=input("Enter second number:")
     n1=n1.strip()
     n2=n2.strip()
     op=op.strip()
@@ -28,10 +31,7 @@ def calculator(n1,op,n2):
     else:
         print("Invalid operator")
 while True:
-    n1=input("Enter first number:")
-    op=input("Enter operator:")
-    n2=input("Enter second number:")
-    calculator(n1,op,n2)
+    calculator()
     cont=input("Do you want to continue? (yes/no):")
     if cont.lower() != 'yes':
         break
